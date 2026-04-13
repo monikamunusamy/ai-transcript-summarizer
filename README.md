@@ -48,43 +48,59 @@ This makes the result more useful than raw AI output and easier to scan quickly.
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/monikamunusamy/ai-transcript-summarizer.git
 cd ai-transcript-summarizer
-2. Install dependencies
-If you are using a package-based version of the project:
-
+2. Install Dependencies
 npm install
-3. Run the project
+3. Run the Project
 npm start
-Then open:
+Then open the app in your browser at:
 
 http://localhost:3000
 Usage
-Paste your transcript into the transcript field
-Add your Groq API key
-Generate the summary
+Paste your transcript into the input field
+Enter your Groq API key
+Click Generate Summary
 Review the structured output
 Current Scope
-This MVP currently supports transcript-based summarization.
+This MVP currently focuses on transcript-based summarization.
 
-Video-link summarization was explored during development, but the project was intentionally narrowed to transcript-only summarization for a cleaner and more dependable first release.
+Video-link summarization was explored during development, but the project was intentionally narrowed to transcript-only summarization for a cleaner, more reliable, and more practical first release.
 
 Why This Project
 This project was built as part of a commitment to build and ship one AI project every week.
 
-The goal is to learn by building, stay consistent, and create practical AI tools around real user problems.
+The goal is simple:
+learn by building, stay consistent, and create practical AI tools around real user problems.
 
 Roadmap
-Potential next improvements:
+Potential next improvements include:
 
 Better visual presentation of summary sections
-Copy-to-clipboard for generated summaries
-Download summary as PDF or Markdown
-Transcript file upload
+Copy-to-clipboard support for generated summaries
+Export as PDF or Markdown
+Transcript file upload support
 Smarter formatting for different transcript types
-Support for multiple summarization styles
+Multiple summarization styles
 Author
 Built by Monika Munusamy
+
+
+A few small improvements I made:
+- more professional capitalization
+- cleaner step wording
+- more natural product language
+- stronger roadmap wording
+- your name linked to GitHub
+
+One important note:
+if your project has **no dependencies**, then `npm install` is not really needed. In that case we can simplify it to:
+
+```md
+### 2. Run the Project
+
+```bash
+npm start
