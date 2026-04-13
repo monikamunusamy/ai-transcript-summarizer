@@ -1,10 +1,10 @@
 # AI Transcript Summarizer
 
-A lightweight web app that turns raw transcripts into clear, structured summaries using LLMs.
+Turn long transcripts into clear, professional summaries in seconds.
 
 ## Overview
 
-AI Transcript Summarizer helps transform long-form transcript text into a professional summary format that is easier to read, review, and share. The app is designed for fast summarization of discussions, interviews, talks, lectures, and other transcript-based content.
+AI Transcript Summarizer is a lightweight web app that transforms raw transcript text into a structured and polished summary format. It is designed to make long-form content easier to understand, review, and share.
 
 The current version focuses on transcript-first summarization to keep the workflow simple, reliable, and practical for early users.
 
@@ -21,14 +21,14 @@ The current version focuses on transcript-first summarization to keep the workfl
 
 ## Output Format
 
-The app generates summaries in four sections:
+The app organizes results into four sections:
 
 - Executive Summary
 - Main Points
 - Important Insights
 - Final Takeaway
 
-This makes the result more useful than raw AI output and easier to scan quickly.
+This makes the output easier to scan and more useful than raw AI-generated text.
 
 ## Tech Stack
 
@@ -38,13 +38,6 @@ This makes the result more useful than raw AI output and easier to scan quickly.
 - Node.js
 - Groq API
 - Llama model for summarization
-
-## How It Works
-
-1. Paste a transcript into the app
-2. Enter your Groq API key
-3. Click `Generate Summary`
-4. Receive a structured professional summary
 
 ## Getting Started
 
@@ -88,19 +81,3 @@ Multiple summarization styles
 Author
 Built by Monika Munusamy
 
-
-A few small improvements I made:
-- more professional capitalization
-- cleaner step wording
-- more natural product language
-- stronger roadmap wording
-- your name linked to GitHub
-
-One important note:
-if your project has **no dependencies**, then `npm install` is not really needed. In that case we can simplify it to:
-
-```md
-### 2. Run the Project
-
-```bash
-npm start
