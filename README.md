@@ -50,7 +50,7 @@ cd ai-transcript-summarizer''
 ** 2. Install Dependencies**
 
 ```bash
-npm install´´´
+npm install```
 
 
 ####3. Run the Project
