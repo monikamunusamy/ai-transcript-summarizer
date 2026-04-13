@@ -8,6 +8,12 @@ AI Transcript Summarizer is a lightweight web app that transforms raw transcript
 
 The current version focuses on transcript-first summarization to keep the workflow simple, reliable, and practical for early users.
 
+<p align="center">
+  <img src="AI Summarizer1.png" width="30%" />
+  <img src="AI Summarizer2.png" width="30%" />
+  <img src="AI Summarizer3.png" width="30%" />
+</p>
+
 ## Features
 
 * Clean transcript input interface
