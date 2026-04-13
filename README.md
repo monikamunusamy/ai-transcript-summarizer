@@ -45,10 +45,15 @@ This makes the output easier to scan and more useful than raw AI-generated text.
 
 ```bash
 git clone https://github.com/monikamunusamy/ai-transcript-summarizer.git
-cd ai-transcript-summarizer
-2. Install Dependencies
-npm install
-3. Run the Project
+cd ai-transcript-summarizer''
+
+** 2. Install Dependencies**
+
+```bash
+npm install´´´
+
+
+####3. Run the Project
 npm start
 Then open the app in your browser at:
 
