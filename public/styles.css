@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.project-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #111827;
+  font-size: 38px;
+}
+
+.credit-line {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.credit-line a {
+  color: #0f4c81;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.credit-line a:hover {
+  text-decoration: underline;
+  color: #0b3b63;
+}
+
+
+.hero-text {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 720px;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.results {
+  margin-top: 32px;
+  display: grid;
+  gap: 20px;
+}
+
+.result-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.result-card h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+#executiveSummary,
+#finalTakeaway {
+  line-height: 1.7;
+  color: #374151;
+}
+
+#mainPoints,
+#importantInsights {
+  margin: 0;
+  padding-left: 22px;
+}
+
+#mainPoints li,
+#importantInsights li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #374151;
+}

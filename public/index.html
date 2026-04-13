@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Transcript Summarizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+  <h1>Summarize Any Transcript</h1>
+  <p class="credit-line">
+    Built in public by
+    <a
+      href="https://github.com/monikamunusamy"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Monika Munusamy
+    </a>
+  </p>
+  <p class="hero-text">
+    Paste a transcript and get a clear, professional summary with ordered
+    points and key insights.
+  </p>
+</div>
+
+      <label for="apiKey">Groq API Key</label>
+      <input
+        type="password"
+        id="apiKey"
+        placeholder="Paste your Groq API key here"
+      />
+
+      <label for="transcript">Transcript</label>
+      <textarea
+        id="transcript"
+        rows="14"
+        placeholder="Paste transcript text here"
+      ></textarea>
+
+      <button id="generateBtn">Generate Summary</button>
+
+      <div class="results">
+        <section class="result-card">
+          <h2>Executive Summary</h2>
+          <div id="executiveSummary"></div>
+        </section>
+
+        <section class="result-card">
+          <h2>Main Points</h2>
+          <ol id="mainPoints"></ol>
+        </section>
+
+        <section class="result-card">
+          <h2>Important Insights</h2>
+          <ul id="importantInsights"></ul>
+        </section>
+
+        <section class="result-card">
+          <h2>Final Takeaway</h2>
+          <div id="finalTakeaway"></div>
+        </section>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
